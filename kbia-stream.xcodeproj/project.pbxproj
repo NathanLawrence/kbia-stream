@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		900FCC361BB4AF77006C8DA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900FCC351BB4AF77006C8DA2 /* AppDelegate.swift */; };
+		900FCC381BB4AF77006C8DA2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900FCC371BB4AF77006C8DA2 /* ViewController.swift */; };
+		900FCC3B1BB4AF77006C8DA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 900FCC391BB4AF77006C8DA2 /* Main.storyboard */; };
+		900FCC3D1BB4AF77006C8DA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 900FCC3C1BB4AF77006C8DA2 /* Assets.xcassets */; };
+		900FCC401BB4AF77006C8DA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 900FCC3E1BB4AF77006C8DA2 /* LaunchScreen.storyboard */; };
+		900FCC4B1BB4AF77006C8DA2 /* kbia_streamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900FCC4A1BB4AF77006C8DA2 /* kbia_streamTests.swift */; };
+		900FCC561BB4AF77006C8DA2 /* kbia_streamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900FCC551BB4AF77006C8DA2 /* kbia_streamUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		900FCC471BB4AF77006C8DA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 900FCC2A1BB4AF77006C8DA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 900FCC311BB4AF77006C8DA2;
+			remoteInfo = "kbia-stream";
+		};
+		900FCC521BB4AF77006C8DA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 900FCC2A1BB4AF77006C8DA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 900FCC311BB4AF77006C8DA2;
+			remoteInfo = "kbia-stream";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		900FCC321BB4AF77006C8DA2 /* kbia-stream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kbia-stream.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		900FCC351BB4AF77006C8DA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		900FCC371BB4AF77006C8DA2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		900FCC3A1BB4AF77006C8DA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		900FCC3C1BB4AF77006C8DA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		900FCC3F1BB4AF77006C8DA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		900FCC411BB4AF77006C8DA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		900FCC461BB4AF77006C8DA2 /* kbia-streamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "kbia-streamTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		900FCC4A1BB4AF77006C8DA2 /* kbia_streamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kbia_streamTests.swift; sourceTree = "<group>"; };
+		900FCC4C1BB4AF77006C8DA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		900FCC511BB4AF77006C8DA2 /* kbia-streamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "kbia-streamUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		900FCC551BB4AF77006C8DA2 /* kbia_streamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kbia_streamUITests.swift; sourceTree = "<group>"; };
+		900FCC571BB4AF77006C8DA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		900FCC2F1BB4AF77006C8DA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		900FCC431BB4AF77006C8DA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		900FCC4E1BB4AF77006C8DA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		900FCC291BB4AF77006C8DA2 = {
+			isa = PBXGroup;
+			children = (
+				900FCC341BB4AF77006C8DA2 /* kbia-stream */,
+				900FCC491BB4AF77006C8DA2 /* kbia-streamTests */,
+				900FCC541BB4AF77006C8DA2 /* kbia-streamUITests */,
+				900FCC331BB4AF77006C8DA2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		900FCC331BB4AF77006C8DA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				900FCC321BB4AF77006C8DA2 /* kbia-stream.app */,
+				900FCC461BB4AF77006C8DA2 /* kbia-streamTests.xctest */,
+				900FCC511BB4AF77006C8DA2 /* kbia-streamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		900FCC341BB4AF77006C8DA2 /* kbia-stream */ = {
+			isa = PBXGroup;
+			children = (
+				900FCC351BB4AF77006C8DA2 /* AppDelegate.swift */,
+				900FCC371BB4AF77006C8DA2 /* ViewController.swift */,
+				900FCC391BB4AF77006C8DA2 /* Main.storyboard */,
+				900FCC3C1BB4AF77006C8DA2 /* Assets.xcassets */,
+				900FCC3E1BB4AF77006C8DA2 /* LaunchScreen.storyboard */,
+				900FCC411BB4AF77006C8DA2 /* Info.plist */,
+			);
+			path = "kbia-stream";
+			sourceTree = "<group>";
+		};
+		900FCC491BB4AF77006C8DA2 /* kbia-streamTests */ = {
+			isa = PBXGroup;
+			children = (
+				900FCC4A1BB4AF77006C8DA2 /* kbia_streamTests.swift */,
+				900FCC4C1BB4AF77006C8DA2 /* Info.plist */,
+			);
+			path = "kbia-streamTests";
+			sourceTree = "<group>";
+		};
+		900FCC541BB4AF77006C8DA2 /* kbia-streamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				900FCC551BB4AF77006C8DA2 /* kbia_streamUITests.swift */,
+				900FCC571BB4AF77006C8DA2 /* Info.plist */,
+			);
+			path = "kbia-streamUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		900FCC311BB4AF77006C8DA2 /* kbia-stream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 900FCC5A1BB4AF77006C8DA2 /* Build configuration list for PBXNativeTarget "kbia-stream" */;
+			buildPhases = (
+				900FCC2E1BB4AF77006C8DA2 /* Sources */,
+				900FCC2F1BB4AF77006C8DA2 /* Frameworks */,
+				900FCC301BB4AF77006C8DA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "kbia-stream";
+			productName = "kbia-stream";
+			productReference = 900FCC321BB4AF77006C8DA2 /* kbia-stream.app */;
+			productType = "com.apple.product-type.application";
+		};
+		900FCC451BB4AF77006C8DA2 /* kbia-streamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 900FCC5D1BB4AF77006C8DA2 /* Build configuration list for PBXNativeTarget "kbia-streamTests" */;
+			buildPhases = (
+				900FCC421BB4AF77006C8DA2 /* Sources */,
+				900FCC431BB4AF77006C8DA2 /* Frameworks */,
+				900FCC441BB4AF77006C8DA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				900FCC481BB4AF77006C8DA2 /* PBXTargetDependency */,
+			);
+			name = "kbia-streamTests";
+			productName = "kbia-streamTests";
+			productReference = 900FCC461BB4AF77006C8DA2 /* kbia-streamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		900FCC501BB4AF77006C8DA2 /* kbia-streamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 900FCC601BB4AF77006C8DA2 /* Build configuration list for PBXNativeTarget "kbia-streamUITests" */;
+			buildPhases = (
+				900FCC4D1BB4AF77006C8DA2 /* Sources */,
+				900FCC4E1BB4AF77006C8DA2 /* Frameworks */,
+				900FCC4F1BB4AF77006C8DA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				900FCC531BB4AF77006C8DA2 /* PBXTargetDependency */,
+			);
+			name = "kbia-streamUITests";
+			productName = "kbia-streamUITests";
+			productReference = 900FCC511BB4AF77006C8DA2 /* kbia-streamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		900FCC2A1BB4AF77006C8DA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Nathan Lawrence";
+				TargetAttributes = {
+					900FCC311BB4AF77006C8DA2 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					900FCC451BB4AF77006C8DA2 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 900FCC311BB4AF77006C8DA2;
+					};
+					900FCC501BB4AF77006C8DA2 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 900FCC311BB4AF77006C8DA2;
+					};
+				};
+			};
+			buildConfigurationList = 900FCC2D1BB4AF77006C8DA2 /* Build configuration list for PBXProject "kbia-stream" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 900FCC291BB4AF77006C8DA2;
+			productRefGroup = 900FCC331BB4AF77006C8DA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				900FCC311BB4AF77006C8DA2 /* kbia-stream */,
+				900FCC451BB4AF77006C8DA2 /* kbia-streamTests */,
+				900FCC501BB4AF77006C8DA2 /* kbia-streamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		900FCC301BB4AF77006C8DA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				900FCC401BB4AF77006C8DA2 /* LaunchScreen.storyboard in Resources */,
+				900FCC3D1BB4AF77006C8DA2 /* Assets.xcassets in Resources */,
+				900FCC3B1BB4AF77006C8DA2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		900FCC441BB4AF77006C8DA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		900FCC4F1BB4AF77006C8DA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		900FCC2E1BB4AF77006C8DA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				900FCC381BB4AF77006C8DA2 /* ViewController.swift in Sources */,
+				900FCC361BB4AF77006C8DA2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		900FCC421BB4AF77006C8DA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				900FCC4B1BB4AF77006C8DA2 /* kbia_streamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		900FCC4D1BB4AF77006C8DA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				900FCC561BB4AF77006C8DA2 /* kbia_streamUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		900FCC481BB4AF77006C8DA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 900FCC311BB4AF77006C8DA2 /* kbia-stream */;
+			targetProxy = 900FCC471BB4AF77006C8DA2 /* PBXContainerItemProxy */;
+		};
+		900FCC531BB4AF77006C8DA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 900FCC311BB4AF77006C8DA2 /* kbia-stream */;
+			targetProxy = 900FCC521BB4AF77006C8DA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		900FCC391BB4AF77006C8DA2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				900FCC3A1BB4AF77006C8DA2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		900FCC3E1BB4AF77006C8DA2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				900FCC3F1BB4AF77006C8DA2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		900FCC581BB4AF77006C8DA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		900FCC591BB4AF77006C8DA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		900FCC5B1BB4AF77006C8DA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "kbia-stream/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.kbia.kbia-stream";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		900FCC5C1BB4AF77006C8DA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "kbia-stream/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.kbia.kbia-stream";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		900FCC5E1BB4AF77006C8DA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "kbia-streamTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.kbia.kbia-streamTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kbia-stream.app/kbia-stream";
+			};
+			name = Debug;
+		};
+		900FCC5F1BB4AF77006C8DA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "kbia-streamTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.kbia.kbia-streamTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kbia-stream.app/kbia-stream";
+			};
+			name = Release;
+		};
+		900FCC611BB4AF77006C8DA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "kbia-streamUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.kbia.kbia-streamUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "kbia-stream";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		900FCC621BB4AF77006C8DA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "kbia-streamUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.kbia.kbia-streamUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "kbia-stream";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		900FCC2D1BB4AF77006C8DA2 /* Build configuration list for PBXProject "kbia-stream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				900FCC581BB4AF77006C8DA2 /* Debug */,
+				900FCC591BB4AF77006C8DA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		900FCC5A1BB4AF77006C8DA2 /* Build configuration list for PBXNativeTarget "kbia-stream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				900FCC5B1BB4AF77006C8DA2 /* Debug */,
+				900FCC5C1BB4AF77006C8DA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		900FCC5D1BB4AF77006C8DA2 /* Build configuration list for PBXNativeTarget "kbia-streamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				900FCC5E1BB4AF77006C8DA2 /* Debug */,
+				900FCC5F1BB4AF77006C8DA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		900FCC601BB4AF77006C8DA2 /* Build configuration list for PBXNativeTarget "kbia-streamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				900FCC611BB4AF77006C8DA2 /* Debug */,
+				900FCC621BB4AF77006C8DA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 900FCC2A1BB4AF77006C8DA2 /* Project object */;
+}
