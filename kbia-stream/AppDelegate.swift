@@ -11,9 +11,13 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-    var window: UIWindow?
-
-
+    /*APP INSTANCE VARIABLES
+        Built-in objects so marked.*/
+    var window: UIWindow? //Built-in object
+    
+    
+    /*AUTO-GENERATED METHODS/FUNCTIONS
+        Code added so marked. */
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         return true

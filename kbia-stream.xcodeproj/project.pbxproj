@@ -14,6 +14,8 @@
 		900FCC401BB4AF77006C8DA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 900FCC3E1BB4AF77006C8DA2 /* LaunchScreen.storyboard */; };
 		900FCC4B1BB4AF77006C8DA2 /* kbia_streamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900FCC4A1BB4AF77006C8DA2 /* kbia_streamTests.swift */; };
 		900FCC561BB4AF77006C8DA2 /* kbia_streamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900FCC551BB4AF77006C8DA2 /* kbia_streamUITests.swift */; };
+		903E2DA61BB59E9D00AB4905 /* Radio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903E2DA51BB59E9D00AB4905 /* Radio.swift */; };
+		903E2DA81BB59EE000AB4905 /* RadioKeeper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903E2DA71BB59EE000AB4905 /* RadioKeeper.swift */; };
 		90C1E4711BB594A1002D27B5 /* KBIA_square_main.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C1E4751BB594A1002D27B5 /* KBIA_square_main.png */; };
 		90C1E4721BB594A1002D27B5 /* KBIA_square_main.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C1E4751BB594A1002D27B5 /* KBIA_square_main.png */; };
 		90C1E4731BB594A1002D27B5 /* KBIA_square_main.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C1E4751BB594A1002D27B5 /* KBIA_square_main.png */; };
@@ -50,6 +52,8 @@
 		900FCC511BB4AF77006C8DA2 /* kbia-streamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "kbia-streamUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		900FCC551BB4AF77006C8DA2 /* kbia_streamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kbia_streamUITests.swift; sourceTree = "<group>"; };
 		900FCC571BB4AF77006C8DA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		903E2DA51BB59E9D00AB4905 /* Radio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Radio.swift; sourceTree = "<group>"; };
+		903E2DA71BB59EE000AB4905 /* RadioKeeper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioKeeper.swift; sourceTree = "<group>"; };
 		90C1E4741BB594A1002D27B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = Base.lproj/KBIA_square_main.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,6 +112,8 @@
 				900FCC3C1BB4AF77006C8DA2 /* Assets.xcassets */,
 				900FCC3E1BB4AF77006C8DA2 /* LaunchScreen.storyboard */,
 				900FCC411BB4AF77006C8DA2 /* Info.plist */,
+				903E2DA51BB59E9D00AB4905 /* Radio.swift */,
+				903E2DA71BB59EE000AB4905 /* RadioKeeper.swift */,
 			);
 			path = "kbia-stream";
 			sourceTree = "<group>";
@@ -274,6 +280,8 @@
 			files = (
 				900FCC381BB4AF77006C8DA2 /* ViewController.swift in Sources */,
 				900FCC361BB4AF77006C8DA2 /* AppDelegate.swift in Sources */,
+				903E2DA61BB59E9D00AB4905 /* Radio.swift in Sources */,
+				903E2DA81BB59EE000AB4905 /* RadioKeeper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,6 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    /*APPLICATION PROPERTIES/VARIABLES
+        This is where I put the things that need to be triggered by app events. */
+    var radioKeeper : RadioKeeper = RadioKeeper()
+    
     /* OUTLET SECTION
         This is where I get access to the view elements to do the things. */
     @IBOutlet weak var albumArtView: UIImageView! //The album art window at the top of the screen.
@@ -23,6 +27,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func segmentedStationSelValueChg(sender: UISegmentedControl) { //When someone changes the value of the station selector.
+        
     }
     
     
@@ -31,6 +36,7 @@ class ViewController: UIViewController {
     //These overrides are written into ViewController by default.
     override func viewDidLoad() {
         super.viewDidLoad()
+        print(radioKeeper.stationStack["KBIA"]!)
         // Do any additional setup after loading the view, typically from a nib.
     }
 
