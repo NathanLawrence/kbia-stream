@@ -23,10 +23,12 @@ class Radio: NSObject {
         /*These two are constants, so I can set them in init, but they're stuck now.*/
         self.stationName = stationName
         self.stationURL = stationURL
+        audioPlayer = STKAudioPlayer()
     }
     
     func startStream() -> Bool{
-        return false //This is a PLACE HOLDER!!!!!!!!!
+            audioPlayer.play(stationURL)
+            return true
     }
 
 }
