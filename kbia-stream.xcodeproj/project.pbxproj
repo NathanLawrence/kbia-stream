@@ -14,6 +14,9 @@
 		900FCC401BB4AF77006C8DA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 900FCC3E1BB4AF77006C8DA2 /* LaunchScreen.storyboard */; };
 		900FCC4B1BB4AF77006C8DA2 /* kbia_streamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900FCC4A1BB4AF77006C8DA2 /* kbia_streamTests.swift */; };
 		900FCC561BB4AF77006C8DA2 /* kbia_streamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900FCC551BB4AF77006C8DA2 /* kbia_streamUITests.swift */; };
+		90C1E4711BB594A1002D27B5 /* KBIA_square_main.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C1E4751BB594A1002D27B5 /* KBIA_square_main.png */; };
+		90C1E4721BB594A1002D27B5 /* KBIA_square_main.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C1E4751BB594A1002D27B5 /* KBIA_square_main.png */; };
+		90C1E4731BB594A1002D27B5 /* KBIA_square_main.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C1E4751BB594A1002D27B5 /* KBIA_square_main.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,7 @@
 		900FCC511BB4AF77006C8DA2 /* kbia-streamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "kbia-streamUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		900FCC551BB4AF77006C8DA2 /* kbia_streamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kbia_streamUITests.swift; sourceTree = "<group>"; };
 		900FCC571BB4AF77006C8DA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90C1E4741BB594A1002D27B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = Base.lproj/KBIA_square_main.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		900FCC291BB4AF77006C8DA2 = {
 			isa = PBXGroup;
 			children = (
+				90C1E46C1BB59420002D27B5 /* Resources */,
 				900FCC341BB4AF77006C8DA2 /* kbia-stream */,
 				900FCC491BB4AF77006C8DA2 /* kbia-streamTests */,
 				900FCC541BB4AF77006C8DA2 /* kbia-streamUITests */,
@@ -123,6 +128,14 @@
 				900FCC571BB4AF77006C8DA2 /* Info.plist */,
 			);
 			path = "kbia-streamUITests";
+			sourceTree = "<group>";
+		};
+		90C1E46C1BB59420002D27B5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				90C1E4751BB594A1002D27B5 /* KBIA_square_main.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +244,7 @@
 			files = (
 				900FCC401BB4AF77006C8DA2 /* LaunchScreen.storyboard in Resources */,
 				900FCC3D1BB4AF77006C8DA2 /* Assets.xcassets in Resources */,
+				90C1E4711BB594A1002D27B5 /* KBIA_square_main.png in Resources */,
 				900FCC3B1BB4AF77006C8DA2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +253,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90C1E4721BB594A1002D27B5 /* KBIA_square_main.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90C1E4731BB594A1002D27B5 /* KBIA_square_main.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +323,15 @@
 				900FCC3F1BB4AF77006C8DA2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		90C1E4751BB594A1002D27B5 /* KBIA_square_main.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90C1E4741BB594A1002D27B5 /* Base */,
+			);
+			name = KBIA_square_main.png;
+			path = "kbia-stream";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -486,6 +511,7 @@
 				900FCC5C1BB4AF77006C8DA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		900FCC5D1BB4AF77006C8DA2 /* Build configuration list for PBXNativeTarget "kbia-streamTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +520,7 @@
 				900FCC5F1BB4AF77006C8DA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		900FCC601BB4AF77006C8DA2 /* Build configuration list for PBXNativeTarget "kbia-streamUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +529,7 @@
 				900FCC621BB4AF77006C8DA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
