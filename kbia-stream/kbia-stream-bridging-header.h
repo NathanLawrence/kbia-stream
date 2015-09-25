@@ -10,5 +10,6 @@
 #define _bridging_header_h
 
 #import "/StreamingKit/NSMutableArray+STKAudioPlayer.h"
+#import "/StreamingKit/STKAudioPlayer.h"
 
 #endif /* _bridging_header_h */

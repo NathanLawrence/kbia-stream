@@ -82,7 +82,7 @@
 		903E2DBB1BB5B89600AB4905 /* STKQueueEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STKQueueEntry.h; sourceTree = "<group>"; };
 		903E2DBC1BB5B89600AB4905 /* STKQueueEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STKQueueEntry.m; sourceTree = "<group>"; };
 		903E2DBD1BB5B89600AB4905 /* StreamingKit-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "StreamingKit-Prefix.pch"; sourceTree = "<group>"; };
-		903E2DC71BB5B90D00AB4905 /* -bridging-header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "-bridging-header.h"; sourceTree = "<group>"; };
+		903E2DC71BB5B90D00AB4905 /* kbia-stream-bridging-header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "kbia-stream-bridging-header.h"; sourceTree = "<group>"; };
 		90C1E4741BB594A1002D27B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = Base.lproj/KBIA_square_main.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -170,7 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				903E2DAA1BB5B89600AB4905 /* StreamingKit */,
-				903E2DC71BB5B90D00AB4905 /* -bridging-header.h */,
+				903E2DC71BB5B90D00AB4905 /* kbia-stream-bridging-header.h */,
 			);
 			name = streaminglib;
 			sourceTree = "<group>";

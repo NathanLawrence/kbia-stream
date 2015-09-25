@@ -16,6 +16,7 @@ class Radio: NSObject {
     
     /*OBJECT PROPERTIES/VARIABLES
     This is where I put the things that store valuable object states. */
+    var audioPlayer : STKAudioPlayer
 
     
     init (stationName : String, stationURL : String) {
